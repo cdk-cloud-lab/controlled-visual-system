@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid= "demo_016" %}
+{% include feature/jumbotron.html objectid="demo_016" %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
 
@@ -35,9 +35,8 @@ This site is generated using CB-GH [CollectionBuilder-GH](https://collectionbuil
   
    The included works—photograms, iterative digital sculptures, and installation views—function as both artworks and models. Each operates as a closed system defined by specific constraints (frame size, sampling field, spatial placement), yet produces a potentially infinite series of variations through the controlled interaction of light, material, and algorithmic process. In this sense, the collection is not only an archive but an active system: a visualization of how images are generated, repeated, and transformed across contexts—from analog light exposure to digital sampling—while remaining structurally bound to the rules that produce them.
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+
 
 {% include feature/image.html objectid="demo_001" width="75" %}
 
