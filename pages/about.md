@@ -11,6 +11,7 @@ credits: true
 {% include feature/jumbotron.html objectid="demo_016" %}
 
 {% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/button.html text="Browse the collection" link="https://cdk-cloud-lab.github.io/controlled-visual-system/browse.html" color="success" %}
 
 ## About the Collection
 
@@ -40,19 +41,10 @@ This site is generated using CB-GH [CollectionBuilder-GH](https://collectionbuil
 
 {% include feature/image.html objectid="demo_001" width="75" %}
 
-System Components
+System Components =
 
-Then briefly define your three bodies of work:
+(1)Photograms: Light-based systems where variation emerges through exposure within fixed film frames.; (2)Iterative Sculptures: Digitally generated forms using sampling (stamp tool) as a mechanism of repetition and difference.; and (3)Installations: Spatial systems in which repetition across objects produces a perceptual field.
 
-Photograms
-Light-based systems where variation emerges through exposure within fixed film frames.
-
-Iterative Sculptures
-Digitally generated forms using sampling (stamp tool) as a mechanism of repetition and difference.
-
-Installations
-Spatial systems in which repetition across objects produces a perceptual field.
-
-{% include feature/card.html header="This is a Card" text="The card features an image from the collection as a cap" objectid="demo011" width="25" centered=true %}
+{% include feature/card.html header="View the collection" text="The card features an image from the collection as a cap" objectid= "demo_011" width="25" centered=true %}
 
 {% include feature/button.html text="Browse the collection" link="https://cdk-cloud-lab.github.io/controlled-visual-system/browse.html" color="success" %}
